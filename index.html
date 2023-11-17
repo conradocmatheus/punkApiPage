@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Cervejas</title>
+		<link
+			rel="stylesheet"
+			href="styles.css" />
+	</head>
+	<body>
+		<h1>Cervejas</h1>
+		<label for="itemsPerPage">Itens por página:</label>
+		<select id="itemsPerPage">
+			<option value="5">5</option>
+			<option value="10">10</option>
+			<option value="20">20</option>
+			<option value="50">50</option>
+		</select>
+		<div id="main-content">
+			<table id="beer-table">
+				<tr>
+					<td>Imagem</td>
+					<td>ID</td>
+					<td>Nome</td>
+					<td>Tagline</td>
+					<td>Descricao</td>
+				</tr>
+			</table>
+		</div>
+		<div id="paginationControls"></div>
+		<script src="script.js"></script>
+	</body>
+</html>
